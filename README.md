@@ -18,7 +18,9 @@
         key: keyFile,
     };
 
-## Curl script
+## Curl script exempel
+(Here is a curl spcript similar to the HTTPS request that currently don't work)
+
 ```
 cd ssl && \
 
