@@ -28,8 +28,7 @@ var options = {
     // ca: caFile,
     cert: certFile,
     passphrase: 'swish',
-    // key: keyFile,
-    pfx: keyFile
+    key: keyFile,
   };
 
 options.agent = new https.Agent(options);
