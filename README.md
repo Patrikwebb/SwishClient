@@ -6,6 +6,18 @@
 ## Enter Docker enviorments
     docker run -it --entrypoint /bin/bash swishclient
 
+## HTTPS request in index.js
+    var options = {
+        hostname: 'mss.swicpc.bankgirot.se',
+        port: 443,
+        path: '/swish-cpcapi/api/v1/paymentrequests',
+        method: 'POST',
+        // ca: caFile,
+        cert: certFile,
+        passphrase: 'swish',
+        key: keyFile,
+    };
+
 ## Curl script
 ```
 cd ssl && \
