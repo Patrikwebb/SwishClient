@@ -6,7 +6,7 @@
 ## Enter Docker enviorments
     docker run -it --entrypoint /bin/bash swishclient
 
-## HTTPS request in index.js
+## HTTPS request in index.js (Not working, trying to solve)
     var options = {
         hostname: 'mss.swicpc.bankgirot.se',
         port: 443,
@@ -18,8 +18,8 @@
         key: keyFile,
     };
 
-## Curl script exempel
-(Here is a curl spcript similar to the HTTPS request that currently don't work)
+## Curl script exempel (Working!)
+(Here is a curl script similar to the HTTPS request)
 
 ```
 cd ssl && \
