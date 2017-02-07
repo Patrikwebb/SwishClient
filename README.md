@@ -1,10 +1,10 @@
 ## Docker rebuild
-docker rmi -f swishclient && \
-docker build -t swishclient . && \
-docker run swishclient
+    docker rmi -f swishclient && \
+    docker build -t swishclient . && \
+    docker run swishclient
 
 ## Enter Docker enviorments
-docker run -it --entrypoint /bin/bash swishclient
+    docker run -it --entrypoint /bin/bash swishclient
 
 ## Curl script
 ```
